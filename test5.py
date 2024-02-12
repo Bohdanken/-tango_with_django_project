@@ -29,7 +29,6 @@ from django.contrib.auth.models import User
 FAILURE_HEADER = f"{os.linesep}{os.linesep}{os.linesep}================{os.linesep}TwD TEST FAILURE =({os.linesep}================{os.linesep}"
 FAILURE_FOOTER = f"{os.linesep}"
 
-
 class Chapter5DatabaseConfigurationTests(TestCase):
     """
     Is your database configured as the book states?
